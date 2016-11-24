@@ -1,10 +1,13 @@
-const knex = require("knex")({
-  client: "sqlite3",
-  connection: {
-    filename: "./hello.sqlite"
-  },
-  useNullAsDefault: true // ¯\_(ツ)_/¯
-});
+// const knex = require("knex")({
+//   client: "sqlite3",
+//   connection: {
+//     filename: "./hello.sqlite"
+//   },
+//   useNullAsDefault: true // ¯\_(ツ)_/¯
+// });
+
+"use strict"
+const knex = require("./db");
 
 // queremos um nome para este convidado
 if(!process.argv[2]){
