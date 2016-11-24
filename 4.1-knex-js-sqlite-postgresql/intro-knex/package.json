@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Joao Gabriel",
   "license": "ISC",
   "dependencies": {
     "knex": "^0.12.6",
